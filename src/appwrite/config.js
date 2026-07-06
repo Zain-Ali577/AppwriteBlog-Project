@@ -146,7 +146,7 @@ export class Service{
             return null;
         }
 
-        return this.bucket.getFilePreview(
+        return this.bucket.getFileView(
             conf.appwriteBucketId,
             fileId
         )
